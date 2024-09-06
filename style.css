@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Encode+Sans:wght@100..900&display=swap");
+
+body {
+  font-family: "Encode Sans", sans-serif;
+  background-image: linear-gradient(270deg, #bd0d59 10%, #460558 100%);
+  width: 70%;
+  height: 100vh;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h1 {
+  color: white;
+  font-size: 5rem;
+}
+
+h2 {
+  color: white;
+  font-size: 3rem;
+}
+
+p {
+  max-width: 35ch;
+  margin: 0 auto;
+  color: white;
+  font-size: 2rem;
+}
