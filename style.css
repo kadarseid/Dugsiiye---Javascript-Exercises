@@ -39,6 +39,13 @@ button {
   border-radius: 4px;
 }
 
+ul {
+  text-align: left;
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
 @media (max-width: 768px) {
   h1 {
     font-size: 4rem;
