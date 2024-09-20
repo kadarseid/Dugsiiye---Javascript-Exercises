@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Color Picker</title>
+    <style>
+      body {
+        font-family: sans-serif;
+      }
+
+      .color-preview {
+        width: 400px;
+        height: 400px;
+        border: 3px solid black;
+        font-size: 32px;
+        display: grid;
+        place-content: center;
+      }
+
+      ul {
+        list-style: none;
+        font-size: 20px;
+        font-weight: bold;
+        padding: 16px 16px;
+      }
+
+      button {
+        font-size: 20px;
+        border: 2px solid black;
+        padding: 12px 24px;
+        background-color: black;
+        color: white;
+        border-radius: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Interactive Color Picker</h1>
+    <label for="color">Choose a color:</label>
+    <input type="color" name="color" id="color-picker" />
+    <br />
+    <br />
+    <div class="color-preview">
+      <p>Color Preview</p>
+    </div>
+    <h2>Color History</h2>
+    <ul class="color-history"></ul>
+    <button class="clear-btn">Clear History</button>
+    <script src="main.js"></script>
+  </body>
+</html>
